@@ -1,0 +1,38 @@
+﻿# --- Visual Studio ---
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.DotSettings
+*.DotSettings.user
+
+# --- Build outputs ---
+bin/
+obj/
+[Bb]uild/
+x64/
+x86/
+[Aa]rtifacts/
+
+# --- NuGet ---
+packages/
+*.nupkg
+*.snupkg
+*.nuget.props
+*.nuget.targets
+
+# --- Logs / caches ---
+*.log
+*.cache
+
+# --- ReSharper / Rider (あれば) ---
+_ReSharper.*/
+.idea/
+*.sln.iml
+
+# --- OS ---
+Thumbs.db
+Desktop.ini
+
+# ※ HostParamSync.addin はバージョン管理したいので除外しません
